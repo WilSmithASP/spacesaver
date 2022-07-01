@@ -1,0 +1,116 @@
+.App {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.modal{
+  text-align: center;
+  border-radius: 20px !important;
+  background-color: rgba(0, 0, 0, 0.581);
+}
+
+.MuiCircularProgress-colorPrimary{
+  color: aliceblue !important;
+}
+
+.signiature{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: white;
+  font-weight: 500;
+  background-color: #213a67;
+  border-top-left-radius: 20px;
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+  padding: 10px;
+}
+
+a{
+  color: rgb(206, 206, 206) !important;
+  text-decoration: none !important;
+  transition: all .5s;
+}
+
+a:hover{
+  transition: all .5s;
+  color: rgb(255, 255, 255) !important;
+}
+
+.modal-button{
+  margin-top: 20px !important;
+  background-color: rgb(24, 110, 163) !important;
+}
+
+.app-wrapper{
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+  height: 100vh;
+  background-image: url("./../public/NET-ZERO-SPACE-INITIATIVE-1.png"); /* The image used */
+  background-size: cover;
+}
+
+.paper{
+  display: flex;
+  flex-direction: column !important;
+  padding: 20px;
+  background-color: #282c34 !important;
+  color: rgb(206, 206, 206) !important;
+}
+
+.form-button{
+  border-radius: 25px !important;
+  background-color: rgb(24, 110, 163) !important;
+}
+
+.form-input{
+  padding: 7.5px;
+  font-size: medium;
+  border-radius: 7.5px;
+}
+
+.form-padding{
+  margin: 15px;
+}
+
+.column{
+  display: flex;
+  flex-direction: column;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
